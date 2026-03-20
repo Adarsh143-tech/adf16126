@@ -1,0 +1,9 @@
+{
+	"name": "dfpractice15126",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "3f33788b-181f-41fa-93cb-6647674195a6",
+		"tenantId": "e14e73eb-5251-4388-8d67-8f9f2e2d5a46"
+	}
+}
