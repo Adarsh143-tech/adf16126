@@ -29,6 +29,9 @@
 		"AzureDataLakeStorage6_accountKey": {
 			"value": ""
 		},
+		"AzureSqlDatabase1_password": {
+			"value": ""
+		},
 		"AzureDataLakeStorage1_properties_typeProperties_url": {
 			"value": "https://storagenewjobs.dfs.core.windows.net/"
 		},
@@ -46,6 +49,15 @@
 		},
 		"AzureDataLakeStorage6_properties_typeProperties_url": {
 			"value": "https://storagemyjobs.dfs.core.windows.net/"
+		},
+		"AzureSqlDatabase1_properties_typeProperties_server": {
+			"value": "demosqldatabase19126.database.windows.net"
+		},
+		"AzureSqlDatabase1_properties_typeProperties_database": {
+			"value": "19126db"
+		},
+		"AzureSqlDatabase1_properties_typeProperties_userName": {
+			"value": "admin123"
 		},
 		"containerUri": {
 			"value": ""
