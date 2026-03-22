@@ -32,6 +32,9 @@
 		"AzureDataLakeStorage7_accountKey": {
 			"value": ""
 		},
+		"AzureDataLakeStorage8_accountKey": {
+			"value": ""
+		},
 		"AzureSqlDatabase1_password": {
 			"value": ""
 		},
@@ -57,6 +60,9 @@
 			"value": "https://storagemyjobs.dfs.core.windows.net/"
 		},
 		"AzureDataLakeStorage7_properties_typeProperties_url": {
+			"value": "https://storagemyjobs.dfs.core.windows.net/"
+		},
+		"AzureDataLakeStorage8_properties_typeProperties_url": {
 			"value": "https://storagemyjobs.dfs.core.windows.net/"
 		},
 		"AzureSqlDatabase1_properties_typeProperties_server": {
