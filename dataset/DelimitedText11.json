@@ -1,0 +1,48 @@
+{
+	"name": "DelimitedText11",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureDataLakeStorage7",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "customers_100.json",
+				"fileSystem": "democont15126"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "{\"customer_id\":\"1\"",
+				"type": "String"
+			},
+			{
+				"name": "\"name\":\"Sneha Gupta\"",
+				"type": "String"
+			},
+			{
+				"name": "\"age\":\"37\"",
+				"type": "String"
+			},
+			{
+				"name": "\"city\":\"Lucknow\"",
+				"type": "String"
+			},
+			{
+				"name": "\"email\":\"sneha.gupta1@example.com\"",
+				"type": "String"
+			},
+			{
+				"name": "\"signup_date\":\"2023-02-04\"}",
+				"type": "String"
+			}
+		]
+	}
+}

@@ -24,6 +24,7 @@
 					],
 					"storeSettings": {
 						"type": "AzureBlobFSReadSettings",
+						"recursive": true,
 						"enablePartitionDiscovery": false
 					},
 					"formatSettings": {
@@ -69,20 +70,19 @@
 					],
 					"ifTrueActivities": [
 						{
-							"name": "Set variable1",
-							"type": "SetVariable",
+							"name": "Execute Pipeline1",
+							"type": "ExecutePipeline",
 							"dependsOn": [],
 							"policy": {
-								"secureOutput": false,
 								"secureInput": false
 							},
 							"userProperties": [],
 							"typeProperties": {
-								"variableName": "value1",
-								"value": {
-									"value": "@activity('Get Metadata1').output.exists",
-									"type": "Expression"
-								}
+								"pipeline": {
+									"referenceName": "for each running using meta data",
+									"type": "PipelineReference"
+								},
+								"waitOnCompletion": true
 							}
 						}
 					]
